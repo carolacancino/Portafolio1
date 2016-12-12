@@ -1,20 +1,4 @@
 
-//PARALLAX ON BIO SECTION
-/*$(document).ready(function() {
-  var origheight = $("#bio").height();
-  var height = $(window).height();
-  if (height > origheight) {
-    $("#bio").height(height);
-  }
-  
-  $(window).scroll(function(){
-    var x = $(this).scrollTop();
-    $('#bio').css('background-position','center -'+parseInt(x/15)+'px');
-});  
-});*/
-
-
-
 //SMOOTH SCROLL ON NAVBAR CLICKS
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -31,25 +15,12 @@ $(function() {
   });
 });
 
-
-//TV SET CHANNEL FLIP
-$(function(){
-    $('.fadein img:gt(0)').hide();
-    setInterval(function(){
-      $('.fadein :first-child').fadeOut()
-         .next('img').fadeIn()
-         .end().appendTo('.fadein');}, 
-      1500);
-});
-
-
 // NAV BAR CLOSE ON PAGE CLICK
 $(document).ready(function () {
     $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
     });
 })
-
 
 //Fade header on scroll
 $(window).scroll(function(){
@@ -58,24 +29,34 @@ $(window).scroll(function(){
     $(".fa-chevron-down").css("opacity", 1 - $(window).scrollTop() / 500);
   });
 
-
-
-
-$(document).ready(function() {
-  $('.grid').magnificPopup({
-  delegate: 'a', // child items selector, by clicking on it popup will open
-  type: 'iframe',
-  // other options
-     gallery:{
-    enabled:true
-  }
-});
-});
-
-
 window.sr = ScrollReveal();
 sr.reveal('.section-header');
 sr.reveal('.effect-sarah');
 sr.reveal('.bio-text');
 sr.reveal('.about-item');
 sr.reveal('.contact-wrapper');
+
+// button Up
+/////////////////////////////////////////////
+$(function () {  
+  $(window).scroll(function () {  
+  if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);  
+  else $('a#move_up').fadeOut(400);  
+  });  
+  $('a#move_up').click(function () {  
+  $('body,html').animate({  
+  scrollTop: 0  
+  }, 800);  
+  return false;  
+  });  
+});  
+//skills//
+$(document).ready(function() {
+  
+  $('.html').css('width', '90%');
+  $('.css').css('width', '90%');
+  $('.jquery').css('width', '70%');
+  $('.javascript').css('width', '55%');
+  $('.bootstrap').css('width', '90%');
+  $('.rwd').css('width', '85%');
+});
