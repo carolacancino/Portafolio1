@@ -60,3 +60,4 @@ $(document).ready(function() {
   $('.bootstrap').css('width', '90%');
   $('.rwd').css('width', '85%');
 });
+$('.carousel').carousel();

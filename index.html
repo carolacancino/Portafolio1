@@ -53,20 +53,20 @@
       <div class="col-xs 12 col-sm-12 col-md-12">
         <h1 class="section-header">PORTAFOLIO</h1>
         <div class="grid">
-         <figure class="effect-sarah">
+         <figure id="lyft" class="effect-sarah">
           <img src="img/proyectos/img8.jpg" style="height: 281.25px"/>
           <figcaption>
             <div>
               <h2>Lyft <span>Responsive</span></h2>
               <p>Laboratoria Sprint 6</p>
             </div>
-            <a class="" href="paises.html">View more</a>
+            <a class="" href="lyft.html">View more</a>
           </figcaption>     
         </figure> 
         <figure class="effect-sarah">
           <img src="img/proyectos/img9.jpg" style="height: 281.25px"/>
           <figcaption>
-            <div>
+            <div>                                          
               <h2>Servicio <span>Pais</span></h2>
               <p>Laboratoria Sprint 6</p>
             </div>
@@ -173,9 +173,46 @@
 </section>
 <section id="about" class="container about-section">  
 
-  <div class="row col-xs-12 col-sm-12 col-md-12 about-item">
-    <h2 class="about-header">AQUI VA SLIDER RV</h2>
-    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eveniet non numquam fugit aliquid nemo ab, sed, aut impedit. Atque sapiente odio recusandae cumque, ipsa. Doloribus beatae laborum, enim earum. ipsum dolor sit amet, consectetur adipisicing elit. Ab possimus atque harum magni incidunt facere nemo. Ex sequi atque, illum rem molestias natus hic voluptate nemo eos est totam deserunt!</p>
+  
+    <div class="container">
+  <!--<h1>Use Bootstrap's carousel to show multiple items per slide.</h1>-->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/rv1.jpeg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/rv2.jpeg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/lyft3.png" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/rv4.jpeg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/rv5.jpeg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-md-12"><a href="#1"><img src="img/rv6.jpeg" class="img-responsive"></a></div>
+          </div>
+          <!-- add  more items here -->
+          <!-- Example item start:  -->
+          
+          <div class="item">
+            <div class="col-xs-12"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+          </div>
+          
+          <!--  Example item end -->
+        </div>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
     <hr class="about-underline">
   </div>
 </section>
@@ -267,17 +304,17 @@
         <li class="list-item correo"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">carolacancinoc@gmail.com</a></span></li>
       </ul>
       <ul class="social-media-icons-list">
-        <li><a href="#" target="_blank" class="social-media-icon"><img src="img/facebook.png" height="60px" width="60px"></a></li>
-        <li><a href="#" target="_blank" class="social-media-icon"><img src="img/git.png" height="60px" width="60px"></a></li>
+        <li><a href="https://www.facebook.com/amelieilovesomuch" target="_blank" class="social-media-icon"><img src="img/facebook.png" height="60px" width="60px"></a></li>
+        <li><a href="https://github.com/carolacancino" target="_blank" class="social-media-icon"><img src="img/git.png" height="60px" width="60px"></a></li>
         <li><a href="#" target="_blank" class="social-media-icon"><img src="img/instagram.png" height="60px" width="60px"></a></li>
       </ul>
       <div class="copyright">&copy; 2016 ALL RIGHTS RESERVED</div>
     </div>
   </div>
 </section>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='js/jquery-3.1.1.js'></script>
 <script src='http://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='js/bootstrap.js'></script>
 <script src='https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.js'></script>
 <script src="js/index.js"></script>
 </body>

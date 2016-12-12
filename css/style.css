@@ -783,3 +783,8 @@ CLIENTS SECTION
   }
 }
 
+.carousel-inner {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    height:30%;
