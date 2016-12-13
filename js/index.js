@@ -60,4 +60,9 @@ $(document).ready(function() {
   $('.bootstrap').css('width', '90%');
   $('.rwd').css('width', '85%');
 });
-$('.carousel').carousel();
+/////////////
+$(document).ready(function(){
+ $('#formacion').on('click',function(ev){
+    $('#container-formacion').toggle('slow');
+  });
+});
