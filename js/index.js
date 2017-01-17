@@ -38,31 +38,30 @@ sr.reveal('.contact-wrapper');
 
 // button Up
 /////////////////////////////////////////////
-$(function () {  
-  $(window).scroll(function () {  
-  if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);  
-  else $('a#move_up').fadeOut(400);  
-  });  
-  $('a#move_up').click(function () {  
-  $('body,html').animate({  
-  scrollTop: 0  
-  }, 800);  
-  return false;  
-  });  
-});  
-//skills//
-$(document).ready(function() {
-  
-  $('.html').css('width', '90%');
-  $('.css').css('width', '90%');
-  $('.jquery').css('width', '70%');
-  $('.javascript').css('width', '55%');
-  $('.bootstrap').css('width', '90%');
-  $('.rwd').css('width', '85%');
-});
-/////////////
-$(document).ready(function(){
- $('#formacion').on('click',function(ev){
-    $('#container-formacion').toggle('slow');
+$(function () {
+  $(window).scroll(function () {
+  if ($(this).scrollTop() > 300) $('a#move_up').fadeIn(200);
+  else $('a#move_up').fadeOut(400);
+  });
+  $('a#move_up').click(function () {
+  $('body,html').animate({
+  scrollTop: 0
+  }, 800);
+  return false;
   });
 });
+//skills//
+$(document).ready(function() {
+
+  $('.html').css('width', '95%');
+  $('.css').css('width', '95%');
+  $('.jquery').css('width', '70%');
+  $('.javascript').css('width', '60%');
+  $('.bootstrap').css('width', '90%');
+  $('.sass').css('width', '70%');
+  $('.materia').css('width', '60%');
+  $('.git').css('width', '95%');
+  $('.gulp').css('width', '60%');
+  $('.rwd').css('width', '80%');
+});
+/////////////mas
