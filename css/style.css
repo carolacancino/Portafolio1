@@ -3,7 +3,7 @@ body {
   padding: 0;
   }
 
-#work, #bio, #about {
+#work, #about {
   padding-bottom: 50px;
 }
 
@@ -425,9 +425,9 @@ figure.effect-sarah:hover p {
   font-weight: 400;
 }
 
+/***********************++
 
 
-/***********************
 
 CLIENTS SECTION
 
@@ -537,7 +537,7 @@ CLIENTS SECTION
 }
 @media screen and (max-width: 450px) {
   #resumeProficiencies {
-    width: 390px;
+    width: 339px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -546,7 +546,7 @@ CLIENTS SECTION
   }
 }
 .icono-leng{
-  margin-top: -445px;
+  margin-top: -686px;
   margin-left: 200px;
 }
 #resumeProficienciesTop {
@@ -662,7 +662,7 @@ CLIENTS SECTION
 }
 
 .gmail {
-  margin-left: 53px;
+  margin-left: 38px;
 }
 
 .contact-text a {
@@ -790,10 +790,10 @@ CLIENTS SECTION
     border-radius: 50%;
     margin: 10px auto;
     margin-right: 101px;
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     float: left;
-    margin-left: 40px;
+    margin-left: 27px;
    }
     .bio-text {
     max-width: 50em;

@@ -65,3 +65,8 @@ $(document).ready(function() {
   $('.rwd').css('width', '80%');
 });
 /////////////mas
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
